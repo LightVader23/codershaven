@@ -1,0 +1,29 @@
+<html>
+<body>
+
+<br>
+<input type="text" id="num1">
+<br>
+<input type="text" id="num2">
+
+<input type="button" value="Do math!" onclick="makeMessage()">
+<br>
+<input type="text" id="num3">
+<br>
+<input type="text" id="num4">
+<input type="button" value="Do mutiplication onclick="multiple()">
+
+<script>
+function makeMessafe(){
+var num1 = document.getElementById("num1");
+var num2= document.getElementById("num2);
+var num1_val=num1.value*1;
+var num2_val=um1.value*1;
+}
+function multiple(){
+
+}
+
+</script>
+</body>
+</html>

@@ -1,8 +1,15 @@
 <html>
 <body>
-Hello
+<input type="button" value="Do Madlib" onclick="madlib()">
 <script>
-  
+  function madlib(){
+  const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const word1=urlParams.get('word1')
+    const word2 = urlParams.get('word2')
+    const word3 = urlParams.get('word3')
+    alert(word1+word2+word3+);
+  }
   </script>
 </body>
 </html>

@@ -16,7 +16,21 @@
 <input type="text" id="num5">
 <br>
 <input type="text" id="num6">   
-<input type="button" value="Do division" onclick="division()">                            
+<input type="button" value="Do division" onclick="division()">
+  <div>
+   <form action="madlib.html" method="get" >
+   <p> </p>
+        <br>
+       <input type="text" id="word1">
+             <br>
+          <input type="text" id="word2">
+             <br>
+          <input type="text" id="word3">
+             <br>
+          <input type="button" value="Do Madlib" onclick="madlib()">
+        </form>  
+         
+  </div>
 <script>
 function makeMessage(){
 var num1 = document.getElementById("num1");
@@ -39,6 +53,9 @@ var num5_val = num5.value* 1;
 var num6_val = num6.value * 1;
        alert( (num5_val/num6_val));
 }
+       function madlib(){
+              var word 1
+       }
 </script>
 </body>
 </html>

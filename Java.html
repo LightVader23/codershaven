@@ -19,7 +19,7 @@
 <input type="button" value="Do division" onclick="division()">
   <div>
    <form action="https://lightvader23.github.io/codershaven/madlib.html" method="get" >
-   <p> </p>
+   <p id="change"> Hello </p>
         <br>
        <input type="text" id="word1">
              <br>
@@ -27,7 +27,7 @@
              <br>
           <input type="text" id="word3">
              <br>
-          <input type="button" value="Do Madlib" onclick="madlib()">
+          <input type="submit" value="Do Madlib" onclick="madlib()">
         </form>  
          
   </div>
@@ -54,7 +54,16 @@ var num6_val = num6.value * 1;
        alert( (num5_val/num6_val));
 }
        function madlib(){
-              var word 1
+              var changetext=
+         var toggle=0;
+         if(toggle =0){
+           document.getElementById("change").innerHTML="Hello"
+          toggle=1;
+         }
+          if(toggle =1){
+           document.getElementById("change").innerHTML="Goodbye"
+          toggle=1;
+         }
        }
 </script>
 </body>

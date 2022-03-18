@@ -1,11 +1,26 @@
 <html>
 <body>
    <style>
+      /* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+.main {
+  flex: 100%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+   
     .header {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background: #1abc9c; /* green background */
-  color: white; /* white text color */
+  padding: 80px; 
+  text-align: center; 
+  background: #1abc9c; 
+  color: white; 
 }
 
 /* Increase the font size of the <h1> element */
@@ -22,11 +37,15 @@
    color:red
   }
 }
+ p {text-align: center;}
+div {text-align: center;}
     </style>
+   
   <div class="header">
   <h1>My Website</h1>
   <p>A website created by me.</p>
 </div>
+   <div class="main">
 <p id="nan"> Hello </p> 
 <br>
 <input type="text" id="num1">
@@ -59,7 +78,7 @@
              <br>
           <input type="submit" value="Madlib" onclick="madlib()">
         </form>  
-         
+      </div>   
   </div>
 <script>
 function makeMessage(){

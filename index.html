@@ -14,6 +14,7 @@
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+   text-align: center;
    
       }
     .header {
@@ -46,26 +47,10 @@ div {text-align: center;}
   <p>A website created by me.</p>
 </div>
    
-<p id="nan"> Hello </p> 
-<br>
-<input type="text" id="num1">
-<br>
-<input type="text" id="num2">
 
-<input type="button" value="Do math!" onclick="makeMessage()">
-<br>
-<input type="text" id="num3">
-<br>
-<input type="text" id="num4">
-<input type="button" value="Do multiplication" onclick="multiply()">
-<br>
-<input type="text" id="num5">
-<br>
-<input type="text" id="num6">   
-<input type="button" value="Do division" onclick="division()">
   <div class="main">
    <form action="https://lightvader23.github.io/codershaven/madlib.html" method="get" target="_blank" >
-   <p id="change"> Hello </p>
+   <p id="change">  </p>
         <br>
      <label for="noun">Noun:</label><br>
        <input type="text" id="word1" name="word1">
@@ -105,40 +90,6 @@ var num6_val = num6.value * 1;
        function madlib(){
               
         var toggle=Math.floor(Math.random() * (7 - 0)) + 0;
-         if(toggle ==0){
-           document.getElementById("change").innerHTML="Manny the almighty leader of ___Noun___ could _verb____ with the flick of his ___noun___. ";
-         
-         }
-          if(toggle ==1){
-           document.getElementById("change").innerHTML="Jimmy the quarterback of the team ___Noun___ could not believe his eyes when saw ___noun____ fighting __noun__.  ";
-          
-         }
-          if(toggle ==2){
-           document.getElementById("change").innerHTML="Hello";
-          
-         }
-          if(toggle==3){
-           document.getElementById("change").innerHTML="Goodbye";
-          
-         }
-               
-        
-         if(toggle ==4){
-           document.getElementById("change").innerHTML=" the almighty leader of ___Noun___ could _verb____ with the flick of his ___noun___. ";
-          
-         }
-          if(toggle ==5){
-           document.getElementById("change").innerHTML="Jimmy the quarterback of the team ___Noun___ could not believe his eyes when saw ___noun____ fighting __noun__.  ";
-          
-         }
-          if(toggle==6){
-           document.getElementById("change").innerHTML="Hello";
-          
-         }
-          if(toggle ==7){
-           document.getElementById("change").innerHTML="Jimmy the quarterback of the team ___Noun___ could not believe his eyes when saw ___noun____ fighting __noun__.  ";
-         
-         }
        }
 </script>
 </body>

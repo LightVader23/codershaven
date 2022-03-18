@@ -21,7 +21,25 @@
   padding: 80px; 
   text-align: center; 
   background: #1abc9c; 
-  color: white; 
+  animation: colorRotate; 
+}
+      
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  25% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
 }
 
 /* Increase the font size of the <h1> element */
